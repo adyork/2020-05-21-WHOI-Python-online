@@ -303,7 +303,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
 <hr/>
-
+{% endcomment %}
 
 {% comment %}
 SCHEDULE
