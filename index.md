@@ -108,6 +108,7 @@ This block displays the date and links to Google Calendar.
 {% endif %}
 
 {% comment %}
+
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
@@ -125,7 +126,15 @@ Modify the block below if there are any special requirements.
 </ul>  
 
 </p>
- 
+
+<p id="requirements">
+  <strong>HANDOUTS:</strong> 
+
+<p>These are not required materials but they would be useful for reference. </p>
+<p><a href="http://www.qa-distiller.com/files/CheatSheet.pdf">Regular Expression Cheat Sheet (PDF)</a> from qa-distiller.com. If you have access to a printer it would be useful to print this for reference during the workshop.</p>
+<p><a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/pdf_bw/">Regular Expression Cheat Sheet (PDF)</a> by Dave Child from <a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/">Regex page on cheatography.com</a>.  This cheat sheet has more detail than you will need in this workshop but would be useful as a reference after the workshop.</p>
+<p>
+
 {% comment %}
 ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
