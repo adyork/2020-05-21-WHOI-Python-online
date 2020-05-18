@@ -246,7 +246,7 @@ please preview your site before committing, and make sure to run
 
 <h2 id="syllabus">Syllabus</h2>
 
-<p>Syllabus pending. This workshop will use content from the <a href="https://librarycarpentry.org/lc-data-intro/01-regular-expressions/">Carpentries Regular Expression lesson.</a> See <a href="https://carpentries.org/">https://carpentries.org/</a> for more information about the Carpentries organization. </p>
+<p>Syllabus pending. This workshop will use content from the <a href="https://librarycarpentry.org/lc-data-intro/01-regular-expressions/">Library Carpentry Regular Expression lesson.</a> See <a href="https://carpentries.org/">https://carpentries.org/</a> for more information about the Carpentries organization. </p>
 
 <p>
 Participants will receive an overview of regular expression capabilities and where they can be used (languages, command line, text-editors, etc.). 
