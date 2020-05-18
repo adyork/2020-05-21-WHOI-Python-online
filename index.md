@@ -132,7 +132,7 @@ Modify the block below if there are any special requirements.
 These are not required materials but they are useful for reference. 
 <ul>
 <li><a href="http://www.qa-distiller.com/files/CheatSheet.pdf">Regular Expression Cheat Sheet (PDF)</a> from qa-distiller.com. If you have access to a printer it would be useful to print this for reference during the workshop.</li>
-<li>More detailed <a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/pdf_bw/">Regular Expression Cheat Sheet (PDF)</a> by Dave Child from <a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/">Regex page on cheatography.com</a>.  This cheat sheet has more detail than you will need in this workshop but would be useful as a reference after the workshop.</li>
+<li>More detailed <a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/pdf_bw/">Regular Expression Cheat Sheet (PDF)</a> by Dave Child from <a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/">Regex page on cheatography.com</a>.  This cheat sheet has more detail than you will need in this workshop.</li>
 </ul>
 <p>
 
