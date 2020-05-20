@@ -244,9 +244,9 @@ please preview your site before committing, and make sure to run
 <hr/>
 {% endcomment %}
 
-<h2 id="syllabus">Syllabus</h2>
+<h2 id="syllabus">Schedule and Syllabus</h2>
 
-<p>Syllabus pending. This workshop will use content from the <a href="https://librarycarpentry.org/lc-data-intro/01-regular-expressions/">Library Carpentry Regular Expression lesson.</a> See <a href="https://carpentries.org/">https://carpentries.org/</a> for more information about the Carpentries organization. </p>
+<p>This workshop will use content from the <a href="https://librarycarpentry.org/lc-data-intro/">Library Carpentry Regular Expression lesson.</a> See <a href="https://carpentries.org/">https://carpentries.org/</a> for more information about the Carpentries organization. </p>
 
 <p>
 Participants will receive an overview of regular expression capabilities and where they can be used (languages, command line, text-editors, etc.). 
@@ -255,7 +255,111 @@ Participants will receive an overview of regular expression capabilities and whe
 We will cover regular expression patterns and syntax as well as strategies for forming regular expression patterns.  Using an online regular expression editor we will see in real-time how our patterns match and manipulate data.  
 </p>
 <p>
-Participants will be given exercises to practice regular expression skills.
+<p>Participants will be given exercises to practice regular expression skills.</p>
+
+
+<table class="table table-striped">
+	<tr>
+		<td class="col-md-2">08:45</td>
+		<td class="col-md-3">
+    0. Intro
+    </td>
+		<td class="col-md-7">
+              Meet your instructor and helpers.  Learn what resources and tools we will be using during this workshop.
+        </td>
+	</tr>
+	<tr>
+		<td class="col-md-2">09:00</td>
+		<td class="col-md-3">
+    1. 
+			
+			
+			<a href="https://librarycarpentry.org/lc-data-intro/01-regular-expressions/index.html">Regular Expressions (RegEx) Orientation</a>
+		</td>
+		<td class="col-md-7">     
+              What are regular expressions, and what can they do?  How can you imagine using regular expressions in your work?
+      </td>
+	</tr>
+	<tr>
+		<td class="col-md-2">09:30</td>
+		<td class="col-md-3">
+        
+	2. 
+			
+			
+			<a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html">Matching & Extracting Exercises: Finding things in the Code of Conduct</a>
+		</td>
+		<td class="col-md-7">
+			<p>How can you use regular expressions to match and extract strings?</p>
+			<ul>
+				<li>
+					<a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html#exercise-using-regex101com">Exercise Using Regex101.com</a>
+				</li>
+				<li>
+					<a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html#exercise-finding-email-addresses-using-regex101com">Exercise finding email addresses using regex101.com</a>
+				</li>
+				<li>
+					<a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html#exercise-finding-phone-numbers-using-regex101com">Exercise finding phone numbers, Using regex101.com</a>
+				</li>
+				<!--<li><a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html#extracting-a-substring-in-google-sheets-using-regex">Extracting a substring in Google Sheets using regex</a></li>-->
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td class="col-md-2">9:45</td>
+		<td class="col-md-3">Break</td>
+		<td class="col-md-7">15 min break</td>
+	</tr>
+	<tr>
+		<td class="col-md-2">10:00</td>
+		<td class="col-md-3">
+        
+	2. Matching & Substitution Exercises: Data challenges
+      </td>
+		<td class="col-md-7">
+			<p>RegEx challenges based upon your data examples, and past data submissions to BCO-DMO.</p>
+			<ul>
+				<li>Modify timestamps to ISO format and add a time zone.</li>
+				<li>Split data in one column into separate data columns (e.g. Station1_depth50_cast5 -> values in station, depth, and cast columns).</li>
+				<li>Convert a comma delimited list into separate lines.</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td class="col-md-2">10:45</td>
+		<td class="col-md-3">Break</td>
+		<td class="col-md-7">15 min break</td>
+	</tr>
+	<tr>
+		<td class="col-md-2">11:00</td>
+		<td class="col-md-3">   
+	3. Choose your own adventure!      </td>
+		<td class="col-md-7">
+			<p> Choose one of the following activities and we will share our solutions. </p>
+			<ul>
+				<li>Pick an exercise(s) from 
+					<a href="https://librarycarpentry.org/lc-data-intro/04-exercises/index.html">Exercises</a>
+				</li>
+				<li>Match genus, species, and an identifier in a sample name to add a scientific name and identifier column.</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td class="col-md-2">11:45</td>
+		<td class="col-md-3">Break</td>
+		<td class="col-md-7">15 min break</td>
+	</tr>
+	<tr>
+		<td class="col-md-2">12:00</td>
+		<td class="col-md-3">Questions?</td>
+		<td class="col-md-7"></td>
+	</tr>
+	<tr>
+		<td class="col-md-2">12:15</td>
+		<td class="col-md-3">Wrap-Up & Resources</td>
+		<td class="col-md-7"></td>
+	</tr>
+</table>
 
 {% comment%}
 CODE OF CONDUCT
