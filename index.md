@@ -245,123 +245,6 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 
 
-{% comment%}
-CODE OF CONDUCT
-{% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
-
-<p>
-We will be using the Carpentries code of conduct for this workshop.  
-</p>
-<p>Everyone who participates in this workshop is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. 
-</p>
-
-{% comment %}
-<p>This document also outlines how to report an incident if needed.</p>
-<p class="text-center">
-  <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
-  </a>
-</p>
-{% endcomment %}
-
-<hr/>
-
-
-{% comment %}
-Collaborative Notes
-
-If you want to use an Etherpad, go to
-
-https://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-
-Note we also have a CodiMD (the open-source version of HackMD)
-available at https://codimd.carpentries.org
-{% endcomment %}
-{% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
-
-<p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-<hr/>
-{% endif %}
-
-
-{% comment %}
-SURVEYS - DO NOT EDIT SURVEY LINKS
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-
-<p>Please be sure to complete these surveys before and after the workshop.  If you aleady filled out a survey for the WHOI workshop on May 22nd, you don't have to fill this out again.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-
-<hr/>
-
-
-{% comment %}
-SCHEDULE
-
-Show the workshop's schedule.  Edit the items and times in the table
-to match your plans.  You may also want to change 'Day 1' and 'Day
-2' to be actual dates or days of the week.
-
-<h2 id="schedule">Schedule</h2>
-{% endcomment %}
-
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
-
-<hr/>
-
-</p>
-
-{% comment %}
-SETUP
-
-{% endcomment %}
-
-<h2 id="setup">Setup</h2>
-
-{% comment %}
-<p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-{% endcomment %}
-
-It is recommended that you download and install free Zoom conference software.  No other setup required.
-See <a href="https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-Meeting">Joining a meeting from Zoom Help Center</a>).
-
-You will need an up-to-date web browser.
-
-{% comment %}
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-{% endcomment %}
-
-
 <h2 id="syllabus">Schedule and Syllabus</h2>
 
 <p>This workshop will use content from the <a href="https://librarycarpentry.org/lc-data-intro/">Library Carpentry Regular Expression lesson.</a> See <a href="https://carpentries.org/">https://carpentries.org/</a> for more information about the Carpentries organization. </p>
@@ -471,6 +354,123 @@ We will cover regular expression patterns and syntax as well as strategies for f
       <td class="col-md-7"></td>
    </tr>
 </table>
+
+
+{% comment%}
+CODE OF CONDUCT
+{% endcomment %}
+<h2 id="code-of-conduct">Code of Conduct</h2>
+
+<p>
+We will be using the Carpentries code of conduct for this workshop.  
+</p>
+<p>Everyone who participates in this workshop is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. 
+</p>
+
+{% comment %}
+<p>This document also outlines how to report an incident if needed.</p>
+<p class="text-center">
+  <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
+    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+  </a>
+</p>
+{% endcomment %}
+
+<hr/>
+
+
+{% comment %}
+Collaborative Notes
+
+If you want to use an Etherpad, go to
+
+https://pad.carpentries.org/YYYY-MM-DD-site
+
+where 'YYYY-MM-DD-site' is the identifier for your workshop,
+e.g., '2015-06-10-esu'.
+
+Note we also have a CodiMD (the open-source version of HackMD)
+available at https://codimd.carpentries.org
+{% endcomment %}
+{% if page.collaborative_notes %}
+<h2 id="collaborative_notes">Collaborative Notes</h2>
+
+<p>
+We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+<hr/>
+{% endif %}
+
+
+{% comment %}
+SURVEYS - DO NOT EDIT SURVEY LINKS
+{% endcomment %}
+<h2 id="surveys">Surveys</h2>
+
+<p>Please be sure to complete these surveys before and after the workshop.  If you aleady filled out a survey for the WHOI workshop on May 22nd, you don't have to fill this out again.</p>
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+
+<hr/>
+
+
+{% comment %}
+SCHEDULE
+
+Show the workshop's schedule.  Edit the items and times in the table
+to match your plans.  You may also want to change 'Day 1' and 'Day
+2' to be actual dates or days of the week.
+
+<h2 id="schedule">Schedule</h2>
+{% endcomment %}
+
+{% if site.carpentry == "swc" %}
+{% include swc/schedule.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/schedule.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/schedule.html %}
+{% endif %}
+
+<hr/>
+
+
+{% comment %}
+SETUP
+
+{% endcomment %}
+
+<h2 id="setup">Setup</h2>
+
+{% comment %}
+<p>
+  To participate in a
+  {% if site.carpentry == "swc" %}
+  Software Carpentry
+  {% elsif site.carpentry == "dc" %}
+  Data Carpentry
+  {% elsif site.carpentry == "lc" %}
+  Library Carpentry
+  {% endif %}
+  workshop,
+  you will need access to the software described below.
+  In addition, you will need an up-to-date web browser.
+</p>
+{% endcomment %}
+
+It is recommended that you download and install free Zoom conference software.  No other setup required.
+See <a href="https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-Meeting">Joining a meeting from Zoom Help Center</a>).
+
+You will need an up-to-date web browser.
+
+{% comment %}
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+{% endcomment %}
+
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
