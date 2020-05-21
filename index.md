@@ -394,22 +394,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
          What are regular expressions, and what can they do?  How can you imagine using regular expressions in your work?
       </td>
    </tr>
-   <tr>
-      <td class="col-md-2">09:30</td>
-      <td class="col-md-3">
-         2. 
-         Matching & Extracting
-      </td>
-      <td class="col-md-7">
-         <p>How can you use regular expressions to match and extract strings?</p>
-         <ul>
-            <li>
-               Match words, emails, and phone numbers in the Code of Conduct using regex101.com
-            </li>
-            <li>Exercise finding email addresses using regex101.com				</li>
-         </ul>
-      </td>
-   </tr>
+ 
    <tr>
       <td class="col-md-2">9:45</td>
       <td class="col-md-3">Break</td>
