@@ -386,7 +386,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
    <tr>
       <td class="col-md-2">09:00</td>
       <td class="col-md-3">
-         1.			Regular Expressions (RegEx) Orientation
+         1.			<a href="https://adyork.github.io/regex-intro/01-regex-intro/index.html">Regular Expressions (RegEx) Intro</a>
       </td>
       <td class="col-md-7">     
          What are regular expressions, and what can they do?  How can you imagine using regular expressions in your work?
@@ -394,7 +394,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
    </tr>
    <tr>
       <td class="col-md-2">09:30</td>
-      <td class="col-md-3">          2.          Matching & Extracting       </td>
+      <td class="col-md-3">          2.          <a href-"https://adyork.github.io/regex-intro/02-match-extract-strings/index.html">Matching & Extracting</a>       </td>
       <td class="col-md-7">
          <p>How can you use regular expressions to match and extract strings?</p>
          <ul>
@@ -411,7 +411,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
    <tr>
       <td class="col-md-2">10:00</td>
       <td class="col-md-3">
-         2. Matching & Substitution
+         2. <a href="https://adyork.github.io/regex-intro/03-match-substitute/index.html">Matching & Substitution</a>
       </td>
       <td class="col-md-7">
          <p>RegEx challenges based upon your data examples, and past data submissions to BCO-DMO.</p>
@@ -431,7 +431,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
    <tr>
       <td class="col-md-2">11:00</td>
       <td class="col-md-3">   
-         3. Choose your own adventure!      
+         3. <a href="https://adyork.github.io/regex-intro/04-going-further/index.html">Going further and "Choose your own adventure!" </a>  
       </td>
       <td class="col-md-7">
          <p> Pick activities and we will share our results. </p>
