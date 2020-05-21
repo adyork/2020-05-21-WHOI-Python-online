@@ -394,7 +394,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
    </tr>
    <tr>
       <td class="col-md-2">09:30</td>
-      <td class="col-md-3">          2.          <a href-"https://adyork.github.io/regex-intro/02-match-extract-strings/index.html">Matching & Extracting</a>       </td>
+      <td class="col-md-3">          2.          <a href="https://adyork.github.io/regex-intro/02-match-extract-strings/index.html">Matching & Extracting</a>       </td>
       <td class="col-md-7">
          <p>How can you use regular expressions to match and extract strings?</p>
          <ul>
