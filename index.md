@@ -256,108 +256,106 @@ We will cover regular expression patterns and syntax as well as strategies for f
 </p>
 <p>
 <p>Participants will be given exercises to practice regular expression skills.</p>
-
-
 <table class="table table-striped">
-	<tr>
-		<td class="col-md-2">08:45</td>
-		<td class="col-md-3">
-    0. Intro
-    </td>
-		<td class="col-md-7">
-              Meet your instructor and helpers.  Learn what resources and tools we will be using during this workshop.
-        </td>
-	</tr>
-	<tr>
-		<td class="col-md-2">09:00</td>
-		<td class="col-md-3">
-    1.			Regular Expressions (RegEx) Orientation
-		</td>
-		<td class="col-md-7">     
-              What are regular expressions, and what can they do?  How can you imagine using regular expressions in your work?
+   <tr>
+      <td class="col-md-2">08:45</td>
+      <td class="col-md-3">
+         0. Intro
       </td>
-	</tr>
-	<tr>
-		<td class="col-md-2">09:30</td>
-		<td class="col-md-3">
-        
-	2. 
-			Matching & Extracting
-		</td>
-		<td class="col-md-7">
-			<p>How can you use regular expressions to match and extract strings?</p>
-			<ul>
-				<li>
-					Match words, emails, and phone numbers in the Code of Conduct using regex101.com
-				</li>
-				<li>Exercise finding email addresses using regex101.com				</li>
-			</ul>
-		</td>
-	</tr>
-	<tr>
-		<td class="col-md-2">9:45</td>
-		<td class="col-md-3">Break</td>
-		<td class="col-md-7">15 min break</td>
-	</tr>
-	<tr>
-		<td class="col-md-2">10:00</td>
-		<td class="col-md-3">
-        
-	2. Matching & Substitution
+      <td class="col-md-7">
+         Meet your instructor and helpers.  Learn what resources and tools we will be using during this workshop.
       </td>
-		<td class="col-md-7">
-			<p>RegEx challenges based upon your data examples, and past data submissions to BCO-DMO.</p>
-			<ul>
-        <li>Convert a comma delimited list into separate lines.</li>
-				<li>Modify timestamps to ISO format and add a time zone.</li>
-				<li>Transform a file list into a csv tableSplit data in one column into separate data columns (e.g. KM1208_station1_cast5.csv -> csv table with columns cruise_id,station,cast).</li>				
-        <li>Match genus, species, and an identifier in a sample name to add a scientific name and identifier column.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr>
-		<td class="col-md-2">10:45</td>
-		<td class="col-md-3">Break</td>
-		<td class="col-md-7">15 min break</td>
-	</tr>
-	<tr>
-		<td class="col-md-2">11:00</td>
-		<td class="col-md-3">   
-	3. Choose your own adventure!      </td>
-		<td class="col-md-7">
-			<p> Pick activities and we will share our results. </p>
-			<ul>
-				<li>Pick an exercise(s) from 
-					<a href="https://librarycarpentry.org/lc-data-intro/04-exercises/index.html">Exercises</a>
-				</li>
-				<li>Or come up with your own example. </li>
-			</ul>
-		</td>
-	</tr>
-  	<tr>
-		<td class="col-md-2">11:30</td>
-		<td class="col-md-3">   
-	4. Going Further      </td>
-		<td class="col-md-7">
-			<p> We will cover some more concepts and resources you can consult when using regular expressions in your work.				</p>
-      <p>
-		</td>
-	</tr>
-	<tr>
-		<td class="col-md-2">11:45</td>
-		<td class="col-md-3">Break</td>
-		<td class="col-md-7">15 min break</td>
-	</tr>
-	<tr>
-		<td class="col-md-2">12:00</td>
-		<td class="col-md-3">Questions?</td>
-		<td class="col-md-7"></td>
-	</tr>
-	<tr>
-		<td class="col-md-2">12:15</td>
-		<td class="col-md-3">Wrap-Up & Resources</td>
-		<td class="col-md-7"></td>
-	</tr>
+   </tr>
+   <tr>
+      <td class="col-md-2">09:00</td>
+      <td class="col-md-3">
+         1.			Regular Expressions (RegEx) Orientation
+      </td>
+      <td class="col-md-7">     
+         What are regular expressions, and what can they do?  How can you imagine using regular expressions in your work?
+      </td>
+   </tr>
+   <tr>
+      <td class="col-md-2">09:30</td>
+      <td class="col-md-3">
+         2. 
+         Matching & Extracting
+      </td>
+      <td class="col-md-7">
+         <p>How can you use regular expressions to match and extract strings?</p>
+         <ul>
+            <li>
+               Match words, emails, and phone numbers in the Code of Conduct using regex101.com
+            </li>
+            <li>Exercise finding email addresses using regex101.com				</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td class="col-md-2">9:45</td>
+      <td class="col-md-3">Break</td>
+      <td class="col-md-7">15 min break</td>
+   </tr>
+   <tr>
+      <td class="col-md-2">10:00</td>
+      <td class="col-md-3">
+         2. Matching & Substitution
+      </td>
+      <td class="col-md-7">
+         <p>RegEx challenges based upon your data examples, and past data submissions to BCO-DMO.</p>
+         <ul>
+            <li>Convert a comma delimited list into separate lines.</li>
+            <li>Modify timestamps to ISO format and add a time zone.</li>
+            <li>Transform a file list into a csv tableSplit data in one column into separate data columns (e.g. KM1208_station1_cast5.csv -> csv table with columns cruise_id,station,cast).</li>
+            <li>Match genus, species, and an identifier in a sample name to add a scientific name and identifier column.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td class="col-md-2">10:45</td>
+      <td class="col-md-3">Break</td>
+      <td class="col-md-7">15 min break</td>
+   </tr>
+   <tr>
+      <td class="col-md-2">11:00</td>
+      <td class="col-md-3">   
+         3. Choose your own adventure!      
+      </td>
+      <td class="col-md-7">
+         <p> Pick activities and we will share our results. </p>
+         <ul>
+            <li>Pick an exercise(s) from 
+               <a href="https://librarycarpentry.org/lc-data-intro/04-exercises/index.html">Exercises</a>
+            </li>
+            <li>Or come up with your own example. </li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td class="col-md-2">11:30</td>
+      <td class="col-md-3">   
+         4. Going Further      
+      </td>
+      <td class="col-md-7">
+         <p> We will cover some more concepts and resources you can consult when using regular expressions in your work.				</p>
+         <p>
+      </td>
+   </tr>
+   <tr>
+      <td class="col-md-2">11:45</td>
+      <td class="col-md-3">Break</td>
+      <td class="col-md-7">15 min break</td>
+   </tr>
+   <tr>
+      <td class="col-md-2">12:00</td>
+      <td class="col-md-3">Questions?</td>
+      <td class="col-md-7"></td>
+   </tr>
+   <tr>
+      <td class="col-md-2">12:15</td>
+      <td class="col-md-3">Wrap-Up & Resources</td>
+      <td class="col-md-7"></td>
+   </tr>
 </table>
 
 {% comment%}
