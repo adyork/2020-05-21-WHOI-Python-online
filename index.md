@@ -271,10 +271,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
 	<tr>
 		<td class="col-md-2">09:00</td>
 		<td class="col-md-3">
-    1. 
-			
-			
-			<a href="https://librarycarpentry.org/lc-data-intro/01-regular-expressions/index.html">Regular Expressions (RegEx) Orientation</a>
+    1.			Regular Expressions (RegEx) Orientation
 		</td>
 		<td class="col-md-7">     
               What are regular expressions, and what can they do?  How can you imagine using regular expressions in your work?
@@ -285,23 +282,15 @@ We will cover regular expression patterns and syntax as well as strategies for f
 		<td class="col-md-3">
         
 	2. 
-			
-			
-			<a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html">Matching & Extracting Exercises: Finding things in the Code of Conduct</a>
+			Matching & Extracting Exercises
 		</td>
 		<td class="col-md-7">
 			<p>How can you use regular expressions to match and extract strings?</p>
 			<ul>
 				<li>
-					<a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html#exercise-using-regex101com">Exercise Using Regex101.com</a>
+					Match words, emails, and phone numbers in the Code of Conduct using regex101.com
 				</li>
-				<li>
-					<a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html#exercise-finding-email-addresses-using-regex101com">Exercise finding email addresses using regex101.com</a>
-				</li>
-				<li>
-					<a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html#exercise-finding-phone-numbers-using-regex101com">Exercise finding phone numbers, Using regex101.com</a>
-				</li>
-				<!--<li><a href="https://librarycarpentry.org/lc-data-intro/02-match-extract-strings/index.html#extracting-a-substring-in-google-sheets-using-regex">Extracting a substring in Google Sheets using regex</a></li>-->
+				<li>Exercise finding email addresses using regex101.com				</li>
 			</ul>
 		</td>
 	</tr>
