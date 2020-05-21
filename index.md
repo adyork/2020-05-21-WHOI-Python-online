@@ -282,7 +282,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
 		<td class="col-md-3">
         
 	2. 
-			Matching & Extracting Exercises
+			Matching & Extracting
 		</td>
 		<td class="col-md-7">
 			<p>How can you use regular expressions to match and extract strings?</p>
@@ -303,14 +303,15 @@ We will cover regular expression patterns and syntax as well as strategies for f
 		<td class="col-md-2">10:00</td>
 		<td class="col-md-3">
         
-	2. Matching & Substitution Exercises: Data challenges
+	2. Matching & Substitution
       </td>
 		<td class="col-md-7">
 			<p>RegEx challenges based upon your data examples, and past data submissions to BCO-DMO.</p>
 			<ul>
+        <li>Convert a comma delimited list into separate lines.</li>
 				<li>Modify timestamps to ISO format and add a time zone.</li>
-				<li>Split data in one column into separate data columns (e.g. Station1_depth50_cast5 -> values in station, depth, and cast columns).</li>
-				<li>Convert a comma delimited list into separate lines.</li>
+				<li>Transform a file list into a csv tableSplit data in one column into separate data columns (e.g. KM1208_station1_cast5.csv -> csv table with columns cruise_id,station,cast).</li>				
+        <li>Match genus, species, and an identifier in a sample name to add a scientific name and identifier column.</li>
 			</ul>
 		</td>
 	</tr>
@@ -324,13 +325,22 @@ We will cover regular expression patterns and syntax as well as strategies for f
 		<td class="col-md-3">   
 	3. Choose your own adventure!      </td>
 		<td class="col-md-7">
-			<p> Choose one of the following activities and we will share our solutions. </p>
+			<p> Pick activities and we will share our results. </p>
 			<ul>
 				<li>Pick an exercise(s) from 
 					<a href="https://librarycarpentry.org/lc-data-intro/04-exercises/index.html">Exercises</a>
 				</li>
-				<li>Match genus, species, and an identifier in a sample name to add a scientific name and identifier column.</li>
+				<li>Or come up with your own example. </li>
 			</ul>
+		</td>
+	</tr>
+  	<tr>
+		<td class="col-md-2">11:30</td>
+		<td class="col-md-3">   
+	4. Going Further      </td>
+		<td class="col-md-7">
+			<p> We will cover some more concepts and resources you can consult when using regular expressions in your work.				</p>
+      <p>
 		</td>
 	</tr>
 	<tr>
