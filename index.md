@@ -431,7 +431,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
    <tr>
       <td class="col-md-2">11:00</td>
       <td class="col-md-3">   
-         3. <a href="https://adyork.github.io/regex-intro/04-going-further/index.html">Going further and "Choose your own adventure!" </a>  
+         3. <a href="https://adyork.github.io/regex-intro/04-going-further/index.html">"Choose your own adventure!" </a>  
       </td>
       <td class="col-md-7">
          <p> Pick activities and we will share our results. </p>
@@ -446,7 +446,7 @@ We will cover regular expression patterns and syntax as well as strategies for f
    <tr>
       <td class="col-md-2">11:30</td>
       <td class="col-md-3">   
-         4. Going Further      
+         4. <a href="https://adyork.github.io/regex-intro/03-match-substitute/index.html">Going Further</a>
       </td>
       <td class="col-md-7">
          <p> We will cover some more concepts and resources you can consult when using regular expressions in your work.				</p>
