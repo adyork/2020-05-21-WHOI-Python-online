@@ -469,11 +469,3 @@ We will cover regular expression patterns and syntax as well as strategies for f
       <td class="col-md-7"></td>
    </tr>
 </table>
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
